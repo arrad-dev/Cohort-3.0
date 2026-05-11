@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./Assets/pokeLogo.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+    <title>Pokemon Assignment-1</title>
+</head>
+
+<body>
+    <main>
+        <nav>
+            <div><i class="ri-bar-chart-horizontal-line"></i></div>
+            <img width="250" src="./Assets/pokeLogo.png" alt="pokemon">
+            <div><i class="ri-sun-line"></i></div>
+        </nav>
+        <section>
+            <div class="sec1">
+                <div class="left"><i class="ri-search-line"></i><input id="search" name="Search" placeholder="Search for a Pokémon" type="text"></div>
+
+                <div class="right">
+                    <select id="filter" type="select" name="filter">
+                        <option value="Filter by type">Filter by type (1)</option>
+                        
+                        <option value="Meowscarada">Meowscarada</option>
+                        <option value="Pawniard">Pawniard</option>
+                        <option value="Houndoom">Houndoom</option>
+                        <option value="Inkay">Inkay</option>
+
+                    </select>
+                    <div><i id="sort" class="ri-sort-desc"></i></div>
+                </div>
+            </div>
+
+            <div class="sec2">
+                <div class="box">
+                    <p>#0908</p>
+                    <i class="ri-heart-line loveicon"></i>
+                    <i class="ri-leaf-fill side-icon"></i>
+                    <img src="./Assets/Meowscarada.png" alt="Meowscarada">
+                    <h2>Meowscarada</h2>
+                    <div id="circle"></div>
+                    <i class="ri-leaf-fill leaf2"><span> GRASS</span></i>
+                    <i class="ri-arrow-right-long-line line"></i>
+
+
+                </div>
+
+                <div class="box" style=" border-bottom: 6px solid rgba(169,85,86);">
+                    <p>#0624</p>
+                    <i class="ri-heart-line loveicon"></i>
+                    <i style="color: rgb(127, 127, 127);    background-color: rgba(176, 176, 176, 0.3);
+" class="ri-hexagon-fill side-icon">
+                    </i> <img src="./Assets/Pawniard.png" alt="Pawniard">
+                    <h2>Pawniard</h2>
+                    <div id="circle" style="background-color: rgba(169,85,86,0.4);"></div>
+                    <i style="color: rgb(127, 127, 127);    background-color: rgba(176, 176, 176, 0.3);"
+                        class="ri-leaf-fill leaf2"><span> DARK/STEEL</span></i>
+                    <i class="ri-arrow-right-long-line line"></i>
+
+
+                </div>
+                 <div class="box" style=" border-bottom: 6px solid rgba(212, 88, 15);">
+                    <p>#0229</p>
+                    <i class="ri-heart-line loveicon"></i>
+                    <i style="color: rgb(212, 88, 15);    background-color: rgba(212, 88, 15, 0.3);
+" class="ri-fire-fill side-icon">
+                    </i> <img src="./Assets/Houndoom.png" alt="Houndoom">
+                    <h2>Houndoom</h2>
+                    <div id="circle" style="background-color: rgba(212, 88, 15,0.4);"></div>
+                    <i style="color: rgb(212, 88, 15);    background-color: rgba(212, 88, 15, 0.3);"
+                        class="ri-fire-fill leaf2"><span> DARK/FIRE</span></i>
+                    <i class="ri-arrow-right-long-line line"></i>
+
+
+                </div>
+                <div class="box" style=" border-bottom: 6px solid rgb(43, 93, 199);">
+                    <p>#0686</p>
+                    <i class="ri-heart-line loveicon"></i>
+                    <i style="color: rgb(43, 93, 199);    background-color: rgba(43, 93, 199, 0.3);
+" class="ri-drop-fill side-icon">
+                    </i> <img src="./Assets/Inkay.png" alt="Inkay">
+                    <h2>Inkay</h2>
+                    <div id="circle" style="background-color: rgba(43, 93, 199,0.4);"></div>
+                    <i style="color: rgb(43, 93, 199);    background-color: rgba(43, 93, 199, 0.3);"
+                        class="ri-drop-fill leaf2"><span> DARK/PHYCHIC</span></i>
+                    <i class="ri-arrow-right-long-line line"></i>
+
+
+                </div>
+            </div>
+            <div class="sec3">
+                <div class="part">
+                    <img src="./Assets/pokeball.png" alt="pokeball">
+                    <div class="img-c"></div>
+                    <aside>
+                        <h4>Explore</h4>
+                        <p>Discover all your favorite Pokémon</p>
+                    </aside>
+                </div>
+               <div class="part">
+                    <img src="./Assets/leaf.png" alt="leaf">
+                     <div class="img-c" style="background-color: rgba(147,199,135,0.1);"></div>
+                    <aside>
+                        <h4>Filter</h4>
+                        <p>Find Pokémon by types and abilities</p>
+                    </aside>
+                </div>
+                 <div class="part">
+                    <img src="./Assets/star.png" alt="star">
+                     <div class="img-c" style="background-color: rgba(207, 196, 39, 0.1);"></div>
+                    <aside>
+                        <h4>Collection</h4>
+                        <p>Save and manage your collection</p>
+                    </aside>
+                </div>
+                 <div class="part">
+                    <img src="./Assets/achievement.png" alt="achievement">
+                     <div class="img-c" style="background-color: rgba(130, 26, 196, 0.1);"></div>
+                    <aside>
+                        <h4>Stats</h4>
+                        <p>Save and manage your collection</p>
+                    </aside>
+                </div>
+
+            </div>
+   
+        </section>
+         <footer>
+        <hr>
+        <img src="./Assets/game.png" alt="pokeball">
+        <p>© 2026 Pokémon. All rights reserved.</p>
+    </footer>
+    </main>
+   
+</body>
+
+</html>
