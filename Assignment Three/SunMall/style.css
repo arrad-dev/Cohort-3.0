@@ -558,13 +558,13 @@ body {
     border-radius: 18px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    overflow: hidden;
     min-height: 170px;
     box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
 }
 
 .chip-pack {
     position: relative;
+    width:220px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -574,16 +574,10 @@ body {
     padding: 16px;
 }
 
-.green-pack {
-    background: linear-gradient(180deg, #9fe93e, #5b8b15);
-}
-
-.black-pack {
-    background: linear-gradient(180deg, #222, #050505);
-}
-
-.orange-pack {
-    background: linear-gradient(180deg, #ff9f2a, #7a3407);
+.chip-pack img{
+    position: absolute;
+    width:115%;
+    z-index: 1000;
 }
 
 .pack-title {
