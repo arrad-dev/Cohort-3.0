@@ -1,0 +1,310 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    background-image: url("./Assets/background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px 20px 80px;
+    color: aliceblue
+}
+
+header img {
+    width: 150px;
+}
+
+header i {
+    font-size: 28px;
+    cursor: pointer;
+
+}
+
+header div {
+    transform: rotate(180deg);
+}
+
+header nav ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+    gap: 60px;
+    /* width:600px; */
+
+
+}
+
+header nav ul li a {
+    cursor: pointer;
+    font-size: 18px;
+    font-family: 'poppins', serif;
+    font-weight: 400;
+    color: rgb(163, 164, 164);
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+
+}
+
+header nav ul li a:hover {
+    color: aliceblue;
+}
+
+header nav ul li {
+    position: relative;
+    text-align: center;
+    align-self: center;
+    transition: all 0.4s ease-in-out;
+
+}
+
+header nav ul li::before {
+    content: '';
+    width: 100%;
+    height: 1px;
+    background-color: rgb(152, 37, 83);
+    position: absolute;
+    left: 0;
+    top: 30px;
+
+    transform: scaleX(0);
+
+    transform-origin: left;
+
+    transition: 0.4s ease-in-out;
+}
+
+header nav ul li:hover::before {
+    transform: scaleX(1);
+}
+
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 70px 10px 70px 90px;
+    font-family: 'poppins', serif;
+
+}
+
+.left {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
+.left img {
+    width: 400px
+}
+
+.left p {
+    font-size: 16px;
+
+    color: #d0d0d0;
+
+    line-height: 1.7;
+
+    margin-bottom: 35px;
+}
+
+/* buttons */
+
+.buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.play-btn {
+    width: 200px;
+    height: 60px;
+
+    border: none;
+
+    border-radius: 12px;
+
+    background:
+        linear-gradient(90deg,
+            #ff0077,
+            #ff9900);
+
+    color: white;
+
+    font-size: 18px;
+    font-weight: 500;
+
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.trailer-btn {
+    width: 200px;
+    height: 60px;
+
+    border-radius: 12px;
+
+    border: 2px solid rgba(255, 0, 120, 0.4);
+
+    background: transparent;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+
+
+    cursor: pointer;
+}
+
+.right {
+    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.right img {
+    width: 630px;
+    position: absolute;
+    bottom: -200px;
+    left: 120px;
+
+}
+.social{
+    position:absolute;
+
+    right:60px;
+    top:50%;
+
+    transform:translateY(-50%);
+
+    display:flex;
+    flex-direction:column;
+
+    gap:20px;
+}
+
+.social i{
+    font-size:26px;
+
+    color:#960240;
+    cursor: pointer;
+}
+
+.container {
+    width: 85%;
+    height: 280px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 30px;
+    gap:30px;
+     background:
+    rgba(255,255,255,0.05);
+
+    backdrop-filter:blur(12px);
+
+    box-shadow:
+    0 0 40px rgba(255,0,120,0.15);
+
+  ;
+  
+    border-radius: 30px;
+    
+}
+
+#videos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+      position:relative;
+      margin-top: 25px;
+ 
+    
+}
+.card{
+   flex:1;
+
+    height:100%;
+
+    border-radius:24px;
+
+    overflow:hidden;
+
+    position:relative;
+
+    cursor:pointer;
+}
+
+.card img{
+    width:100%;
+    height:100%;
+
+    object-fit:cover;
+
+    transition:0.4s ease;
+}
+
+/* hover zoom */
+
+.card:hover img{
+    transform:scale(1.08);
+}
+.play{
+    width:48px;
+    height:48px;
+
+    border-radius:50%;
+
+    background:
+    rgba(0,0,0,0.45);
+
+    backdrop-filter:blur(10px);
+
+    color:white;
+
+    position:absolute;
+
+    right:20px;
+    bottom:20px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    font-size:28px;
+
+    transition:0.3s;
+}
+
+/* hover effect */
+
+.card:hover .play{
+    background:#ff0077;
+
+    transform:scale(1.1);
+}
+
