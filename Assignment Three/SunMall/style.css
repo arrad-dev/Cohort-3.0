@@ -188,6 +188,7 @@ body {
 .hero-left h1 {
     font-family: 'Oswald', sans-serif;
     font-size: 100px;
+    font-weight: 600;
     line-height: 0.9;
     letter-spacing: 1px;
     max-width: 720px;
@@ -366,17 +367,17 @@ body {
 }
 
 .bag-card {
-    width: 420px;
-    height: 560px;
+    width: 900px;
+    /* height: 560px; */
     position: relative;
     transform: rotate(-7deg);
     
     z-index: 3;
-    right: 30%;
+    right: 20%;
 
 }
 .bag-card  img{
-    height:100%;
+    width:100%;
     mix-blend-mode: lighten;
 }
 
@@ -433,33 +434,7 @@ body {
     font-weight: 700;
 }
 
-.tag {
-    position: absolute;
-    font-family: 'Oswald', sans-serif;
-    font-size: 52px;
-    font-weight: 700;
-    padding: 10px 20px;
-    border-radius: 16px;
-    border: 3px solid #1f1f1f;
-    box-shadow: 0 8px 0 rgba(0, 0, 0, 0.15);
-    z-index: 4;
-}
 
-.tag-yellow {
-    background: #f4b62f;
-    left: 170px;
-    top: 410px;
-    color: #111;
-    transform: rotate(-7deg);
-}
-
-.tag-red {
-    background: #df2836;
-    left: 245px;
-    top: 490px;
-    color: white;
-    transform: rotate(-7deg);
-}
 
 .side-features {
     position: absolute;
