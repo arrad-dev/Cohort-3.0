@@ -308,3 +308,24 @@ header nav ul li:hover::before {
     transform:scale(1.1);
 }
 
+#scroll{
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    display: flex;
+    position:absolute;
+    align-items: center;
+    top:35%;
+    left: 50%;
+    gap:14px;
+}
+#scroll h3{
+    color:aliceblue;
+    font-family: 'poppins',serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+#line{
+    width:2px;
+    height:80px;
+    background-color: #960240;
+}
