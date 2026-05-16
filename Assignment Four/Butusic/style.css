@@ -569,7 +569,7 @@ section div {
 
 .stars i {
     font-size: 24px;
-    color: #d8ff32;
+    color: #cffe00;
 }
 
 /* BUTTON */
@@ -601,6 +601,80 @@ section div {
 
 /* nine */
 
+/* BANNER */
+
+.banner{
+
+  background:linear-gradient(
+    90deg,
+    #9f43ff,
+    #8f35ff
+  );
+
+
+
+ 
+
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+
+  gap:20px;
+}
+
+/* ITEM */
+
+.item2{
+  display:flex;
+  align-items:center;
+  gap:10px;
+
+  flex:1;
+}
+
+/* ICON */
+
+.icon2{
+  width:38px;
+  height:38px;
+  background-color: whitesmoke;
+   
+  border-radius:50%;
+
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
+  color:rgb(132, 127, 127);
+  font-size:38px;
+}
+
+/* TEXT */
+
+.text2{
+  color:white;
+  text-align: left;
+  font-size:16px;
+  line-height:1.5;
+  font-weight:500;
+}
+
+/* DIVIDER */
+
+.divider2{
+  width:1px;
+  height:70px;
+
+  background:rgba(255,255,255,0.35);
+}
+
+/* BOX ICON */
+
+.box-icon2{
+  font-size:32px;
+  color:white;
+}
+/* Ten */
 .ten {
     display: flex;
     align-items: center;
