@@ -13,13 +13,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 }
 
 
 main {
-    width: calc(100% - 200px);
-    height: calc(100% - 200px);
+    width: calc(100% - 150px);
+    height: calc(100% - 150px);
     display: grid;
     grid-template-rows: 35% 20% 20% 25%;
     grid-template-columns: 25% 25% 25% 25%;
@@ -30,71 +30,355 @@ main {
         "three three seven nine"
 
     ;
-    
-    
+
+
 }
 
-main div{ 
-    margin:10px;
+
+.one {
+
+    margin: 10px;
     border-radius: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
-   
-}
-
-.one {
- 
-    
     background-color: red;
     grid-area: one;
 }
 
 .two {
+    margin: 10px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: blue;
     grid-area: two;
 }
 
 .three {
-    background-color: green;
+    margin: 10px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: pink;;
     grid-area: three;
 }
 
 .four {
+    margin: 10px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: purple;
     grid-area: four;
 }
 
 .five {
+    margin: 10px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: orange;
     grid-area: five;
 }
 
 .six {
+    margin: 10px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: brown;
     grid-area: six;
 }
 
 .seven {
+    margin: 10px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: pink;
     grid-area: seven;
 }
 
 .eight {
+    margin: 10px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: teal;
     grid-area: eight;
 }
 
 .nine {
+    margin: 10px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: rgb(143, 49, 49);
     grid-area: nine;
 }
+
 .ten {
-     background-color: rgb(49, 62, 143);
+    margin: 10px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(49, 62, 143);
     grid-area: ten;
 }
 
 .eleven {
-     background-color: rgb(143, 49, 127);
+    margin: 10px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(143, 49, 127);
     grid-area: eleven;
 }
+
+
+
+/* one */
+
+
+.card1 {
+
+    overflow: hidden;
+    position: relative;
+}
+
+.card1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Top Logo */
+
+.logo1 {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo1::before {
+    content: "✦";
+    color: white;
+    font-size: 35px;
+}
+
+/* Bottom Cards */
+
+.bottom-box1 {
+    position: absolute;
+    bottom: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0 15px;
+    gap: 20px
+}
+
+.box1 {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 15px 10px;
+
+}
+
+.icon1 {
+    width: 20px;
+    height: 20px;
+    background: yellow;
+    border-radius: 50%;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.text1 h2 {
+    font-size: 16px;
+}
+
+.text1 p {
+    font-size: 12px;
+    opacity: 0.9;
+}
+
+
+
+/* two  */
+
+.card2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    background: white;
+    padding: 10px 20px;
+    gap: 10px;
+
+}
+
+.card2 h1 {
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 1.1;
+    color: black;
+
+}
+
+.bottom2 {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.logo2 {
+    width: 50px;
+    height: 50px;
+    background: black;
+    border-radius: 50%;
+    color: yellow;
+    font-size: 35px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text2 h2 {
+    font-size: 14px;
+    font-weight: 700;
+    color: black;
+    line-height: 1.3;
+}
+
+
+/* three  */
+
+
+.card3 {
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+/* Left */
+
+.left3 {
+    width: 45%;
+    height: 90%;
+    position: relative;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.left3 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.visit-box3 {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(10px);
+    padding: 5px 20px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+}
+
+.visit-box3 span {
+    font-size: 35px;
+}
+
+.visit-box3 h2 {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+/* Right */
+
+.right3 {
+    width: 55%;
+    
+    padding-left: 20px;
+    flex: 1;
+}
+
+.right3 h1 {
+    font-size: 25px;
+    line-height: 1.1;
+    color: black;
+
+}
+
+.bottom3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.number3 h2 {
+    font-size: 30px;
+    color: black;
+}
+
+.number3 p {
+    font-size: 16px;
+}
+
+.trainers3 {
+    display: flex;
+    align-items: center;
+
+}
+
+.trainers3 img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #efc1b7;
+    margin-left: -15px;
+}
+
+/* four  */
