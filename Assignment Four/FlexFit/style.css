@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+main {
+    width: calc(100% - 200px);
+    height: calc(100% - 200px);
+    display: grid;
+    grid-template-rows: 35% 20% 20% 25%;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-areas:
+        "one four six eight"
+        "one five five eight"
+        "two five five nine"
+        "three three seven nine"
+
+    ;
+    
+    
+}
+
+main div{ 
+    margin:10px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.one {
+ 
+    
+    background-color: red;
+    grid-area: one;
+}
+
+.two {
+    background-color: blue;
+    grid-area: two;
+}
+
+.three {
+    background-color: green;
+    grid-area: three;
+}
+
+.four {
+    background-color: purple;
+    grid-area: four;
+}
+
+.five {
+    background-color: orange;
+    grid-area: five;
+}
+
+.six {
+    background-color: brown;
+    grid-area: six;
+}
+
+.seven {
+    background-color: pink;
+    grid-area: seven;
+}
+
+.eight {
+    background-color: teal;
+    grid-area: eight;
+}
+
+.nine {
+    background-color: rgb(143, 49, 49);
+    grid-area: nine;
+}
+.ten {
+     background-color: rgb(49, 62, 143);
+    grid-area: ten;
+}
+
+.eleven {
+     background-color: rgb(143, 49, 127);
+    grid-area: eleven;
+}
