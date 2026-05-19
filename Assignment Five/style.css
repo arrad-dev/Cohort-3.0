@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width:100%;
+    height:100%;
+}
+
+main{
+    width:100%;
+    background-color: rgb(255,255,255);
+}
+
+header{
+    height:80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0px 45px
+}
+.logo{
+    height:50px;
+}
+.logo img{
+    height:100%;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap:50px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap:20px;
+    padding-top: 0.65rem;
+
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(26, 26, 26);
+    font-weight: 700;
+    font-size: 14px;
+    font-family: "Elms Sans";
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:30px;
+    padding-top: 0.65rem;
+}
+.right a{
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+    color:rgb(26,26,26);
+    font-weight: 650;
+    font-family: "Elms Sans";
+}
+.right a:last-child{
+    
+    background-color: rgb(26, 26, 26);
+    color:rgb(255,255,255);
+    border-radius: 30px;
+    padding:13px 20px;
+
+}
+
+.hero{
+    padding-top: 75px;
+    width:100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    gap:30px;
+}
+.hero h1{
+    font-size: 90px;
+    text-align: center;
+    font-weight: 500;
+    line-height: 7rem;
+    font-family:ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+.hero p {
+    font-family: 'poppins';
+    font-size: 18px;
+    text-align: center;
+
+}
+.hero .search{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width:50%;
+    border-radius: 50px;
+    background-color: #f3f3f6;
+    padding:15px 5px;
+}
+
+.search input{
+    width:80%;
+    padding:6px;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    color: rgb(161 161 170);
+}
+.search a{
+    text-decoration: none;
+    color:  rgb(26, 26, 26);
+    font-family: 'poppins';
+    font-size: 18px;
+    font-weight: 600;
+}
+.search a:last-child{
+    border-radius: 20px;
+    background-color: #ec5e95;
+    color: #f3f3f6;
+    padding: 5px 10px;
+}
+.search:hover {
+    background-color: transparent;
+}
+.search input:hover{
+    background-color: transparent;
+}
+
+.trending{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.trending a{
+    text-decoration: none;
+    font-family: 'poppins';
+    color: rgb(26, 26, 26);
+    font-size: 13px;
+    font-weight: 400;
+    border-radius: 30px;
+    padding: 10px;
+    background-color: #f3f3f6;
+}
+
+.trending a:first-child{
+    text-decoration: none;
+    color: rgb(161,161,170);
+    font-family: 'poppins';
+    font-size: 16px;
+    font-weight: 400;
+    background-color: transparent;
+
+}
+
+.cards{
+    width:100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px 50px 40px 50px;
+ 
+
+}
+
+.category {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:15px;
+
+}
+.category a:first-child{
+    text-decoration: none;
+    font-family: 'poppins';
+    color: rgb(26, 26, 26);
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 30px;
+    padding: 10px 12px;
+    background-color: #f3f3f6;
+}
+.category a{
+    text-decoration: none;
+    font-family: 'poppins';
+    color: rgb(26, 26, 26);
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 30px;
+    padding: 10px 12px;
+    background-color: transparent;
+}
+
+.cards .popular a{
+    text-decoration: none;
+    font-family: 'poppins';
+    color: rgb(26, 26, 26);
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 15px;
+    padding: 9px 13px;
+    background-color: transparent;
+    border: 0.8px solid rgb(26,26,26);
+}
+
+.cards .filter a{
+    text-decoration: none;
+    font-family: 'poppins';
+    color: rgb(26, 26, 26);
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 20px;
+    padding: 9px 15px;
+    background-color: transparent;
+    border: 0.8px solid rgb(26,26,26);
+}
