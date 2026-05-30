@@ -1,0 +1,102 @@
+@font-face {
+    font-family: Reckless;
+    src: url("./Fonts/RecklessCondensedS-TRIAL-Book.woff");
+}
+
+@font-face {
+    font-family: RobotoMono;
+    src: url("./Fonts/RobotoMono-Regular.ttf");
+
+}
+
+@font-face {
+    font-family: figTree;
+    src: url("./Fonts/figtree.woff2");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #FFFEFA;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    
+
+}
+nav ul li a {
+    text-decoration: none;
+    color: #201C1A;
+}
+.nav-1{
+     width:40%;
+}
+.nav-1 a{
+     padding-right: 0.5rem;
+     font-weight: 300;
+}
+
+.nav-1 ul li {
+
+    display: flex;
+    align-items: center;
+    font-family: "Reckless";
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #201C1A;
+    
+
+
+}
+.nav-1 ul{
+    gap: 1rem;
+    justify-content: flex-start;
+}
+
+.nav-1 i{
+    font-size: 1.2rem;
+    border-radius: 50%;
+    background-color: #C0DBFF;
+}
+
+.nav-2{
+    width:40%;
+}
+
+.nav-2 ul {
+    font-family: Figtree, sans-serif;
+    gap: 1.5rem;
+    justify-content: flex-end;
+    
+}
+
+.nav-2 ul li {
+    font-family: "RobotoMono",sans-serif;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #201C1A;
+}
+
+
+#star {
+    height: 1.4rem;
+    width: 1.4rem;
+    color:#FFB502;
+}
