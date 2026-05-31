@@ -26,31 +26,65 @@ body {
     height: 100%;
 }
 
+main {
+    position: relative;
+
+}
+
+.ad {
+    width: 100vw;
+    height: 3.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2A2857;
+}
+
+.ad h4 {
+    font-family: "RobotoMono";
+    font-size: 0.75rem;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #FFFFFF;
+    
+}
+
 header {
+    position: sticky;
+    top: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 2rem;
+    padding: 0.5rem 2rem;
     background-color: #FFFEFA;
+    border: 0.1rem solid #201C1A;
+    border-radius: 2rem;
+    z-index: 1000;
 }
 
 nav ul {
     display: flex;
     align-items: center;
     list-style: none;
-    
+
 
 }
+
 nav ul li a {
     text-decoration: none;
     color: #201C1A;
 }
-.nav-1{
-     width:40%;
+
+.nav-1 {
+    width: 40%;
 }
-.nav-1 a{
-     padding-right: 0.5rem;
-     font-weight: 300;
+
+.nav-1 a {
+    padding-right: 0.5rem;
+    font-weight: 300;
 }
 
 .nav-1 ul li {
@@ -61,34 +95,35 @@ nav ul li a {
     font-size: 1.5rem;
     font-weight: 300;
     color: #201C1A;
-    
+
 
 
 }
-.nav-1 ul{
+
+.nav-1 ul {
     gap: 1rem;
     justify-content: flex-start;
 }
 
-.nav-1 i{
+.nav-1 i {
     font-size: 1.2rem;
     border-radius: 50%;
     background-color: #C0DBFF;
 }
 
-.nav-2{
-    width:40%;
+.nav-2 {
+    width: 40%;
 }
 
 .nav-2 ul {
     font-family: Figtree, sans-serif;
     gap: 1.5rem;
     justify-content: flex-end;
-    
+
 }
 
 .nav-2 ul li {
-    font-family: "RobotoMono",sans-serif;
+    font-family: "RobotoMono", sans-serif;
     font-size: 0.8rem;
     font-weight: 500;
     color: #201C1A;
@@ -98,5 +133,21 @@ nav ul li a {
 #star {
     height: 1.4rem;
     width: 1.4rem;
-    color:#FFB502;
+    color: #FFB502;
+}
+
+
+
+
+
+.sec-1 {
+
+    padding: 2rem 1.5rem;
+    background-image: url("https://www.twoleavestea.com/cdn/shop/files/AlpineBerry.webp?v=1774284236&width=1280");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 100vw;
+    min-height: 95vh;
+
 }
