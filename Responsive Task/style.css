@@ -133,7 +133,7 @@ header h4 svg {
 }
 
 .nav-2 ul {
-    font-family: Figtree, sans-serif;
+    font-family: 'Figtree', sans-serif;
     gap: 1.5rem;
     justify-content: flex-end;
 
@@ -160,18 +160,61 @@ header h4 svg {
 
 
 .sec-1 {
-
+    position: relative;
     padding: 2rem 1.5rem;
     background-image: url("https://www.twoleavestea.com/cdn/shop/files/AlpineBerry.webp?v=1774284236&width=1280");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     min-width: 100vw;
-    min-height: 95vh;
+    min-height: 92vh;
+    border-bottom: 1px solid #201C1A;
 
 }
 
+.heroBody{
+    width: 25vw;
+    font-family: 'Reckless';
+    color: #FBF9EB;
+    display: flex;
+    gap:1rem;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: absolute;
+    left: 3rem;
+    bottom: 3rem;
+}
+
+.heroBody h1{
+    font-size: 5rem;
+    font-weight: 400;
+}
+.heroBody p{
+    font-family: 'Figtree';
+    font-size: 1.15rem;
+    font-weight: 300;
+}
+.heroBody button{
+    cursor: pointer;
+    color: #FBF9EB;
+    font-family: 'Figtree';
+    font-size: 1.1rem;
+    font-weight: 200;
+    line-height: 1.15rem;
+    width: fit-content;
+    padding: 1.2rem 5rem;
+    border-radius: 2rem;
+    border: none;
+    outline: none;
+    background-color: #2A2857;
+}
+
+
+.sec2{
+
+}
 @media (max-width: 768px) {
+
     header h4 i {
         display: block;
         width: auto;
@@ -190,6 +233,51 @@ header h4 svg {
     .nav-2 {
         display: none;
     }
+
+    .sec-1 {
+    position: relative;
+    padding: 2rem 1.5rem;
+    background-image: url("https://www.twoleavestea.com/cdn/shop/files/AlpineBerry.webp?v=1774284236&width=1280");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100vw;
+    min-height: 92vh;
+    border-bottom: 1px solid #201C1A;
+
+}
+
+
+    .heroBody{
+    width: 100vw;
+    font-family: 'Reckless';
+    color: #FBF9EB;
+    display: flex;
+    gap:1rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+    position: absolute;
+    left: 0rem;
+    bottom: 5rem;
+    
+}
+
+   .heroBody h1{
+    font-size: 4rem;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  .heroBody p{
+    font-family: 'Figtree';
+    font-size: 1.1rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+
 }
 
 @media (min-width: 768px) {
@@ -211,6 +299,46 @@ header h4 svg {
     .nav-2 {
         display: none;
     }
+
+
+    .sec-1 {
+    position: relative;
+    padding: 2rem 0rem;
+    background-image: url("https://www.twoleavestea.com/cdn/shop/files/AlpineBerry.webp?v=1774284236&width=1280");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100vw;
+    min-height: 92vh;
+    border-bottom: 1px solid #201C1A;
+
+}
+
+
+    .heroBody{
+    
+    font-family: 'Reckless';
+    color: #FBF9EB;
+    display: flex;
+    gap:1rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+   .heroBody h1{
+    font-size: 2rem;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  .heroBody p{
+    font-family: 'Figtree';
+    font-size: 1.1rem;
+    font-weight: 300;
+    text-align: center;
+}
 }
 
 @media (min-width: 1048px) {
